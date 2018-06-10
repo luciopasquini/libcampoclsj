@@ -1,0 +1,14 @@
+digraph "gruppo_impianti.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node10 [label="gruppo_impianti.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="gruppo_antenne.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gruppo__antenne_8cpp.html",tooltip="Metodi della classe gruppoAntenne. "];
+  Node10 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="gruppo_impianti.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gruppo__impianti_8cpp.html",tooltip="Metodi della classe gruppoImpianti. "];
+  Node10 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="modulo_calcolo.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$modulo__calcolo_8h.html",tooltip="Classe contenente i metodi per il calcolo del campo orizzontale e verticale. "];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="modulo_calcolo.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$modulo__calcolo_8cpp.html",tooltip="Metodi per il calcolo del campo strZ e verticale. "];
+}
